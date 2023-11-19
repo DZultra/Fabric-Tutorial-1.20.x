@@ -17,18 +17,16 @@ public class ModItemsGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
-
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
-
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
-
                         entries.add(ModItems.Metal_Detector);
-
                         entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModItems.Tomato);
+                        entries.add(ModItems.COAL_BRIQUETTE);
                     }).build());
 
     public static void registerItemGroups() {
