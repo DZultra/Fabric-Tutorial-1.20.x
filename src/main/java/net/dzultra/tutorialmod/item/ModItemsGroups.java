@@ -23,9 +23,9 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
-                        entries.add(ModItems.Metal_Detector);
+                        entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModBlocks.SOUND_BLOCK);
-                        entries.add(ModItems.Tomato);
+                        entries.add(ModItems.TOMATO);
                         entries.add(ModItems.COAL_BRIQUETTE);
                     }).build());
 
