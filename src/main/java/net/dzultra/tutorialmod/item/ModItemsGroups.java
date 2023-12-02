@@ -42,6 +42,10 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
                         entries.add(ModBlocks.RUBY_DOOR);
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries.add(ModItems.RUBY_CHESTPLATE);
+                        entries.add(ModItems.RUBY_LEGGINGS);
+                        entries.add(ModItems.RUBY_BOOTS);
                     }).build());
 
     public static void registerItemGroups() {
