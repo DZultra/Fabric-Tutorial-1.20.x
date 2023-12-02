@@ -1,6 +1,7 @@
 package net.dzultra.tutorialmod.item;
 
 import net.dzultra.tutorialmod.TutorialMod;
+import net.dzultra.tutorialmod.block.ModBlocks;
 import net.dzultra.tutorialmod.item.custom.MetalDetectorItem;
 import net.dzultra.tutorialmod.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -43,6 +44,8 @@ public class ModItems {
 
     public static final Item TOMATO = registerItem("tomato",
             new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
 
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",
             new Item(new FabricItemSettings()));
