@@ -50,6 +50,8 @@ public class ModItemsGroups {
                         entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModItems.CORN);
                         entries.add(ModBlocks.DAHLIA);
+                        entries.add(ModBlocks.ENDER_WOOL);
+                        entries.add(ModBlocks.ENDER_CARPET);
                     }).build());
 
     public static void registerItemGroups() {

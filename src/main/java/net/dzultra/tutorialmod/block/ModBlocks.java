@@ -62,11 +62,18 @@ public class ModBlocks {
     public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
+    public static final Block ENDER_CARPET = registerBlock("ender_carpet",
+            new CarpetBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CARPET)));
+    public static final Block ENDER_WOOL = registerBlock("ender_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+
+
     public static final Block DAHLIA = registerBlock("dahlia",
             new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 10,
                     FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "potted_dahlia"),
             new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

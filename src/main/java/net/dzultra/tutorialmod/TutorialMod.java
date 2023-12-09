@@ -3,7 +3,9 @@ package net.dzultra.tutorialmod;
 import net.dzultra.tutorialmod.block.ModBlocks;
 import net.dzultra.tutorialmod.item.ModItems;
 import net.dzultra.tutorialmod.item.ModItemsGroups;
+import net.dzultra.tutorialmod.util.ModCustomTrades;
 import net.dzultra.tutorialmod.util.ModLootTableModifiers;
+import net.dzultra.tutorialmod.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -20,7 +22,10 @@ public class TutorialMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		ModCustomTrades.registerCustomTrades();
 		ModLootTableModifiers.modifyLootTables();
+
+		ModVillagers.registerVillagers();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
