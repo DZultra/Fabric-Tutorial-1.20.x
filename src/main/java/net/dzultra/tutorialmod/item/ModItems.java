@@ -50,6 +50,11 @@ public class ModItems {
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",
             new Item(new FabricItemSettings()));
 
+    public static final Item CORN_SEEDS = registerItem("corn_seeds",
+            new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
+    public static final Item CORN = registerItem("corn",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RAW_RUBY);

@@ -1,6 +1,7 @@
 package net.dzultra.tutorialmod.block;
 
 import net.dzultra.tutorialmod.TutorialMod;
+import net.dzultra.tutorialmod.block.custom.CornCropBlock;
 import net.dzultra.tutorialmod.block.custom.SoundBlock;
 import net.dzultra.tutorialmod.block.custom.TomatoCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -53,6 +54,9 @@ public class ModBlocks {
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR),  BlockSetType.IRON));
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR), BlockSetType.IRON));
+
+    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "corn_crop"),
+            new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
