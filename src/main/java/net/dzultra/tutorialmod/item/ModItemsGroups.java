@@ -49,6 +49,7 @@ public class ModItemsGroups {
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModItems.CORN);
+                        entries.add(ModBlocks.DAHLIA);
                     }).build());
 
     public static void registerItemGroups() {
