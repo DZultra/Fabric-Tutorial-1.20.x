@@ -3,16 +3,7 @@
   "item.tutorialmod.raw_ruby": "Raw Ruby",
   "item.tutorialmod.metal_detector": "Metal Detector",
 
-  "item.tutorialmod.corn": "Corn",
-  "item.tutorialmod.corn_seeds": "Corn Seeds",
-
-  "block.tutorialmod.dahlia": "Dahlia",
-
-  "block.tutorialmod.ender_wool": "Ender Wool",
-  "block.tutorialmod.ender_carpet": "Ender Carpet",
-
   "item.tutorialmod.tomato": "Tomato",
-  "item.tutorialmod.tomato_seeds": "Tomato Seeds",
   "item.tutorialmod.coal_briquette": "Coal Briquette",
 
   "item.tutorialmod.ruby_staff": "Ruby Staff",
@@ -27,6 +18,10 @@
   "item.tutorialmod.ruby_chestplate": "Ruby Chestplate",
   "item.tutorialmod.ruby_leggings": "Ruby Leggings",
   "item.tutorialmod.ruby_boots": "Ruby Boots",
+  "item.tutorialmod.tomato_seeds": "Tomato Seeds",
+
+  "item.tutorialmod.corn": "Corn",
+  "item.tutorialmod.corn_seeds": "Corn Seeds",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
@@ -48,9 +43,13 @@
   "block.tutorialmod.ruby_door": "Ruby Door",
   "block.tutorialmod.ruby_trapdoor": "Ruby Trapdoor",
 
-  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
+  "block.tutorialmod.dahlia": "Dahlia",
 
   "entity.minecraft.villager.sound_master": "Soundmaster",
+
+  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
+
+  "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Jingle",
 
   "itemgroup.ruby": "Ruby Tutorial Group"
 }
