@@ -52,6 +52,7 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.DAHLIA);
                         entries.add(ModBlocks.ENDER_WOOL);
                         entries.add(ModBlocks.ENDER_CARPET);
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
                     }).build());
 
     public static void registerItemGroups() {
