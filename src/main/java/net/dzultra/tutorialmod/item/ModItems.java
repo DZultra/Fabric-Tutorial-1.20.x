@@ -2,6 +2,7 @@ package net.dzultra.tutorialmod.item;
 
 import net.dzultra.tutorialmod.TutorialMod;
 import net.dzultra.tutorialmod.block.ModBlocks;
+import net.dzultra.tutorialmod.entity.ModEntities;
 import net.dzultra.tutorialmod.item.custom.MetalDetectorItem;
 import net.dzultra.tutorialmod.item.custom.ModArmorItem;
 import net.dzultra.tutorialmod.sound.ModSounds;
@@ -50,6 +51,9 @@ public class ModItems {
 
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",
             new Item(new FabricItemSettings()));
+
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE,0xa86518, 0x3b260f, new FabricItemSettings()));
 
     public static final Item CORN_SEEDS = registerItem("corn_seeds",
             new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));

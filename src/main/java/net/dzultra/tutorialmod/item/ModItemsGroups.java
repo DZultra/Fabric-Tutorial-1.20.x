@@ -53,6 +53,8 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.ENDER_WOOL);
                         entries.add(ModBlocks.ENDER_CARPET);
                         entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
+                        entries.add(ModBlocks.GEM_POLISHING_STATION);
                     }).build());
 
     public static void registerItemGroups() {

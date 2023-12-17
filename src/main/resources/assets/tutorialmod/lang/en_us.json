@@ -26,6 +26,11 @@
   "item.tutorialmod.corn": "Corn",
   "item.tutorialmod.corn_seeds": "Corn Seeds",
 
+  "item.tutorialmod.porcupine_spawn_egg": "Porcupine Spawn Egg",
+
+  "block.tutorialmod.ender_wool": "Ender Wool",
+  "block.tutorialmod.ender_carpet": "Ender Carpet",
+
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
 
@@ -46,6 +51,8 @@
   "block.tutorialmod.ruby_door": "Ruby Door",
   "block.tutorialmod.ruby_trapdoor": "Ruby Trapdoor",
 
+  "entity.tutorialmod.porcupine": "Porcupine",
+
   "block.tutorialmod.dahlia": "Dahlia",
 
   "entity.minecraft.villager.sound_master": "Soundmaster",
@@ -54,5 +61,9 @@
 
   "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Jingle",
 
-  "itemgroup.ruby": "Ruby Tutorial Group"
+  "itemgroup.ruby": "Ruby Tutorial Group",
+
+  "effect.tutorialmod.exp": "Experience",
+
+  "block.tutorialmod.gem_polishing_station": "Gem Polishing Station"
 }
